@@ -1,0 +1,18 @@
+finished the walls
+polling
+Ball
+
+Ball Class:
+Variables:
+    Class:
+        color
+        radious
+    Instance:
+    x,y
+
+Methods:
+    show()
+    update()
+
+Paddle CLass:
+?
