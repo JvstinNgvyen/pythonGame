@@ -11,10 +11,10 @@ def main():
     WIDTH = 800
     HEIGHT = 400
     BORDER = 15
-    VELOCITY = 10
+    VELOCITY = 5
     FPS = 30
 
-    MyConstants = namedtuple("MyConstants", ["WIDTH", "HEIGHT", "BORDER", "VELOCITY", "FPS"])
+    MyConstants = namedtuple("MyConstants", ["WIDTH", "HEIGHT", "BORDER", "VELOCITY", "FPS"])   
 
     CONSTS = MyConstants(WIDTH, HEIGHT, BORDER, VELOCITY, FPS)
     print(CONSTS.BORDER)
